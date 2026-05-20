@@ -1,0 +1,132 @@
+EXPERIMENT 1
+
+Parameters:
+	Seed: 52
+	Positive class weight: 100
+	Filter counts: (16, 32)
+
+Training time: 2631.23
+Training:
+              precision    recall  f1-score   support
+
+           0       0.99      0.97      0.98      4039
+           1       0.04      0.17      0.06        30
+
+    accuracy                           0.96      4069
+   macro avg       0.52      0.57      0.52      4069
+weighted avg       0.99      0.96      0.97      4069
+
+
+Validation:
+              precision    recall  f1-score   support
+
+           0       0.99      0.97      0.98      1011
+           1       0.05      0.29      0.09         7
+
+    accuracy                           0.96      1018
+   macro avg       0.52      0.63      0.54      1018
+weighted avg       0.99      0.96      0.97      1018
+
+
+EXPERIMENT 2
+
+Parameters:
+	Seed: 53
+	Positive class weight: 100
+	Filter counts: (32, 32)
+
+Training time: 4430.06
+Training:
+              precision    recall  f1-score   support
+
+           0       0.99      0.98      0.99      4039
+           1       0.04      0.10      0.06        30
+
+    accuracy                           0.97      4069
+   macro avg       0.52      0.54      0.52      4069
+weighted avg       0.99      0.97      0.98      4069
+
+
+Validation:
+              precision    recall  f1-score   support
+
+           0       0.99      0.98      0.99      1011
+           1       0.00      0.00      0.00         7
+
+    accuracy                           0.97      1018
+   macro avg       0.50      0.49      0.49      1018
+weighted avg       0.99      0.97      0.98      1018
+
+
+EXPERIMENT 3
+
+Parameters:
+	Seed: 54
+	Positive class weight: 150
+	Filter counts: (16, 32)
+
+Training time: 2642.55
+Training:
+              precision    recall  f1-score   support
+
+           0       0.99      0.91      0.95      4039
+           1       0.01      0.13      0.02        30
+
+    accuracy                           0.90      4069
+   macro avg       0.50      0.52      0.48      4069
+weighted avg       0.99      0.90      0.94      4069
+
+
+Validation:
+              precision    recall  f1-score   support
+
+           0       1.00      0.90      0.95      1011
+           1       0.03      0.43      0.05         7
+
+    accuracy                           0.90      1018
+   macro avg       0.51      0.66      0.50      1018
+weighted avg       0.99      0.90      0.94      1018
+
+
+EXPERIMENT 4
+
+Parameters:
+	Seed: 55
+	Positive class weight: 150
+	Filter counts: (32, 32)
+
+Training time: 4736.10
+Training:
+              precision    recall  f1-score   support
+
+           0       0.99      0.95      0.97      4039
+           1       0.03      0.23      0.06        30
+
+    accuracy                           0.94      4069
+   macro avg       0.51      0.59      0.51      4069
+weighted avg       0.99      0.94      0.96      4069
+
+
+Validation:
+              precision    recall  f1-score   support
+
+           0       0.99      0.93      0.96      1011
+           1       0.01      0.14      0.03         7
+
+    accuracy                           0.92      1018
+   macro avg       0.50      0.54      0.49      1018
+weighted avg       0.99      0.92      0.95      1018
+
+
+BEST EXPERIMENT: 1
+Hyperparameters: pos_weight=100, out_channels=(16, 32)
+Validation F1 score: 0.0909
+Testing:
+              precision    recall  f1-score   support
+
+           0       0.99      0.98      0.98       565
+           1       0.07      0.20      0.10         5
+
+    accuracy                           0.97       570
+   macro avg       0.53      0.59      0.54       570
+weighted avg       0.98      0.97      0.98       570
