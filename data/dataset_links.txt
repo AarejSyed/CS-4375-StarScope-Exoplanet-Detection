@@ -1,0 +1,3 @@
+Training: https://media.githubusercontent.com/media/AarejSyed/Labelled-Kepler-Light-Curve-Dataset/refs/heads/main/exoTrain.csv
+
+Testing: https://media.githubusercontent.com/media/AarejSyed/Labelled-Kepler-Light-Curve-Dataset/refs/heads/main/exoTest.csv
