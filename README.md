@@ -1,8 +1,8 @@
 # StarScope: Detecting Exoplanets from Stellar Light Curves
 
- The StarScope project implements a one-dimensional convolutional neural network (CNN) from scratch in NumPy and evaluates its ability to detect exoplanets from labeled Kepler Space Telescope light curve data.
+The StarScope project implements a one-dimensional convolutional neural network (CNN) from scratch in NumPy and evaluates its ability to detect exoplanets from labeled Kepler Space Telescope light curve data.
 
- Labeled data is from the [Exoplanet Hunting in Deep Space](https://www.kaggle.com/datasets/keplersmachines/kepler-labelled-time-series-data) dataset, by WΔ.
+Labeled data is from the [Exoplanet Hunting in Deep Space](https://www.kaggle.com/datasets/keplersmachines/kepler-labelled-time-series-data) dataset, by WΔ.
 
 ## Repository Structure
 
