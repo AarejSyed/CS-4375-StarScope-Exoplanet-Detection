@@ -53,4 +53,4 @@ Log of runs, confusion matrix, and ROC plot are saved in the same directory as t
 
 ## Results
 
-See report/ for analysis of the final experiment's results.
+See `report/` for analysis of the final experiment's results.
